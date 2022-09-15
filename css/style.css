@@ -7,20 +7,21 @@
 }
 
 body {
+    /*font-family: ms madi,  cursive*/
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
 
 .intro-image {
-    background-attachment: fixed;
+    background-attachment: fixed;/*parallax effekt*/
 
-    background-position:  top; 
+    background-position:  top;/*objekti suhtes pilt reguleeritud*/ 
     background-image: url("../images/coffee2.jpg");
     background-size: cover;
     height: 600px;
     display: flex;
-    align-items: center; 
-    justify-content: center;
+    align-items: center; /*element vertikaalselt*/
+    justify-content: center;/*element vetrikaalselt*/
 }
 
 .intro-image__link a {
@@ -30,9 +31,9 @@ body {
     display: inline-block;
     font-size: 2rem;
     padding: 2rem;
-    text-decoration: none;
+    text-decoration: none;/*tekstivormingu muutmine*/
     text-transform: uppercase;
-    transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out; /*aeglustasin*/
     
 
 }
@@ -83,9 +84,9 @@ body {
     display: inline-block;
     font-size: 2rem;
     padding: 2rem;
-    text-decoration: none; 
+    text-decoration: none; /*teskti vormingu tühistamine*/ 
     text-transform: uppercase;
-    transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out; /*aeglustasin*/
 }
 
 .quality-image__link a:hover {
@@ -131,9 +132,9 @@ body {
     display: inline-block;
     font-size: 2rem;
     padding: 2rem;
-    text-decoration: none; 
+    text-decoration: none; /*teksti vormingu tühistamine*/ 
     text-transform: uppercase;
-    transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out; /*aeglustasin*/
     
 
 }
